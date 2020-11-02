@@ -1,1 +1,79 @@
-p Контент
+main
+    .maininfo
+        .container
+            .maininfo__top
+                h1.maininfo__title Проведение медицинских осмотров работников
+
+                .maininfo__subtitle Медицинские профосмотры работников по приказу 302н
+
+                .gerb
+                    .gerb__img
+                        img(src="img/gerb.png")
+
+                    .gerb__article Имеется лицензия на проведение медицинских осмотров работников
+
+                ul.info-list
+                    li
+                        .info-list__img
+                            img(src="img/records.png" width="60" height="60")
+
+                        .info-list__article
+                            .info-list__title Цена за одного сотрудника
+                            .info-list__price от 1 000 руб.
+                    li
+                        .info-list__img
+                            img(src="img/ambulance.png" width="60" height="60")
+
+                        .info-list__article
+                            .info-list__title Без отрыва от работы
+                            .info-list__price осмотр с выездом
+                    li
+                        .info-list__img
+                            img(src="img/medical.png" width="60" height="60")
+
+                        .info-list__article
+                            .info-list__title За один день проверяем
+                            .info-list__price до 70 сотрудников
+
+            .maininfo__middle
+                .maininfo__img-mob
+                    img(src="img/Female-Physician.jpg")
+
+                ul.maininfo__contact
+                    li
+                        .count-centers
+                            .count-centers__num 25
+                            .count-centers__article Медицинских центров
+                    li
+                        .maininfo__phone-title Для заключения договора обращайтесь по телефону:
+
+                        a(href="tel:74956496451").recall-num 
+                            |+7 495  
+                            span 649-64-51
+                    li
+                        span Единый номер колл-центра
+
+            .maininfo__bottom
+                form.formtop(action="#")
+                    ul.formtop__list
+                        li
+                            label
+                                .formtop__inp-title Имя
+                                input(type="text" placeholder="Имя").formtop__inp
+                        li
+                            label
+                                .formtop__inp-title Телефон
+                                input(type="text" placeholder="+7 ___ ___-__-__").formtop__inp
+                        li
+                            label
+                                .formtop__inp-title Количество сотрудников:
+                                .custom-select
+                                    select 
+                                        option 10 человек
+                                        option 30 человек
+                                        option 40 человек
+
+                    button(type="submit").btn.formtop__btn Оформить заявку
+
+
+

@@ -1,1 +1,79 @@
-p Шапка
+header.header
+    .header__desctop
+        .container
+            .header__column
+                .logo
+                    .logo__img
+                        img(src="img/logo.png" width="90" height="90")
+                    ul.logo__article
+                        li Проф
+                        li Осмотры 
+                            span №1
+                        li медосмотры сотрудников
+
+            .header__column
+                .header__top
+                    ul.main-menu
+                        li
+                            a(href="#") О компании
+                        li
+                            a(href="#") Лицензии
+                        li
+                            a(href="#") Услуги и цены
+                        li
+                            a(href="#") Контакты
+
+                    .adress
+                        .adress__icon
+                            img(src="img/marker.png" width="30" height="30")
+
+                        .adress__article Москва и Московская область
+
+                .header__bottom
+                    ul.navigate
+                        li
+                            a(href="#") Медицинские осмотры
+                        li
+                            a(href="#") Выездные медицинские осмотры
+                        li
+                            a(href="#") Предрейсовые медицинские осмотры
+
+            .header__column
+                ul.header__recall
+                    li
+                        a(href="tel:74956496451").recall-num 
+                            |+7 495  
+                            span 649-64-51
+                    li
+                        span Единый номер колл-центра
+                    li 
+                        button(type="button").btn.btn_header Перезвоните мне
+
+    .header-mob
+        .container
+            .burger
+
+            .mob-logo
+                img(src="img/mob-logo.png" width="142" height="54")
+
+            a(href="tel:74956496451").phone-mob
+                img(src="img/phone-mob.png")
+
+    .dropdownmenu
+        ul.dropdownmenu__nav
+            li
+                a(href="#") Медицинские осмотры
+            li
+                a(href="#") Выездные медицинские осмотры
+            li
+                a(href="#") Предрейсовые медицинские осмотры
+
+        ul.header__recall
+            li
+                a(href="tel:74956496451").recall-num 
+                    |+7 495  
+                    span 649-64-51
+            li
+                span Единый номер колл-центра
+            li 
+                button(type="button").btn.btn_header Перезвоните мне

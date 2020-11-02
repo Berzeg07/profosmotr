@@ -3,7 +3,7 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src: url("../fonts/SFProDisplay-Regular/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProDisplay-Regular/SFProDisplay-Regular.woff2") format("woff"), url("../fonts/SFProDisplay-Regular/SFProDisplay-Regular.ttf") format("ttf")
+    src: url("../fonts/SFProDisplay-Regular/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProDisplay-Regular/SFProDisplay-Regular.woff") format("woff"), url("../fonts/SFProDisplay-Regular/SFProDisplay-Regular.ttf") format("ttf")
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-    src: url("../fonts/SFProDisplay-Medium/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium/SFProDisplay-Medium.woff2") format("woff"), url("../fonts/SFProDisplay-Medium/SFProDisplay-Medium.ttf") format("ttf")
+    src: url("../fonts/SFProDisplay-Medium/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium/SFProDisplay-Medium.woff") format("woff"), url("../fonts/SFProDisplay-Medium/SFProDisplay-Medium.ttf") format("ttf")
 }
 
 @font-face {
@@ -19,5 +19,29 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
-    src: url("../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.woff2") format("woff"), url("../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.ttf") format("ttf")
+    src: url("../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Bold/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/gilroy-black/gilroy-black.woff2") format("woff2"), url("../fonts/gilroy-black/gilroy-black.woff") format("woff"), url("../fonts/gilroy-black/gilroy-black.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "PlumbC";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/PlumbCondensed-Bold/PlumbCondensed-Bold.woff") format("woff"), url("../fonts/PlumbCondensed-Bold/PlumbCondensed-Bold.ttf") format("ttf");
 }
