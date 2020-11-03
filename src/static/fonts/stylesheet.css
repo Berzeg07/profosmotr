@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'PlumbBlackC';
+    src: url('PlumbBlackC.eot');
+    src: url('PlumbBlackC.eot?#iefix') format('embedded-opentype'),
+        url('PlumbBlackC.woff') format('woff'),
+        url('PlumbBlackC.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlumbBlackSoftC';
+    src: url('PlumbBlackSoftC.eot');
+    src: url('PlumbBlackSoftC.eot?#iefix') format('embedded-opentype'),
+        url('PlumbBlackSoftC.woff') format('woff'),
+        url('PlumbBlackSoftC.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlumbC';
+    src: url('PlumbC-Bold.eot');
+    src: url('PlumbC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PlumbC-Bold.woff') format('woff'),
+        url('PlumbC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
